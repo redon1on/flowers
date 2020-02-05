@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/flowershouse-122x118.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  <title>О нас</title>
+  <link rel="preload" as="style" href="assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="preload" as="style" href="assets/bootstrap/css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="preload" as="style" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/formoid-css/recaptcha.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+
+</head>
+<body>
+
+<!-- Google Analytics -->
+<!--Библиотека jQuery-->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!--Скрипт корзины-->
+<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-76e78844.js"></script>
+
+<!--Стили элементов корзины-->
+<link href="https://lk.easynetshop.ru/frontend/v5/ens-76e78844.css" rel="stylesheet">
+<style>.powered {display:none}</style>
+<script>
+document.addEventListener("EasyNetShopLoaded", function(event) {
+     $(".easynetshop-buy, .btn-ens-action").click(function () {
+       var target = $(this);
+       var pos = target.offset();
+       var cart_pos = $('#enscart_wrapper').offset();
+	   var clone = target.clone()
+			  .css({ position: 'absolute', 'z-index': '2100', top: pos.top, left: pos.left })
+			  .appendTo("body")
+			  .animate({top: cart_pos.top, left: cart_pos.left, opacity: 0}, 900, function() { clone.remove(); });
+       });
+    }, false);
+   document.addEventListener("EasyNetShopModalOpened", function(event) {
+      if (($(".easynetshop-modal-addtocart").css('display') != 'none'))  hideEasynetshopModals();
+   }, false);
+  </script>
+		<script type="text/javascript">
+	document.addEventListener("EasyNetShopLoaded", function(event) {
+      var scr = document.createElement("script");
+      scr.src = "https://lk.easynetshop.ru/catalog_export/export_76e78844_0.js" + "?ts=" + new Date().getTime();
+      document.getElementsByTagName("head")[0].appendChild(scr);
+  	}, false);		
+</script>
+<script>
+    document.addEventListener("EasyNetShopLoaded", function(event) {
+	  // Устанавливаем изображение. Указываем адрес загруженной на сайт картинки 
+      ens_jQuery('#enscart_image_wrapper').html('<img src="https://pluspng.com/img-png/shop-png-black-and-white--512.png">');             
+    }, false);
+</script>
+
+<style>
+    #enscart_wrapper {
+      text-align: center; /*Выровнять иконку корзины по центру */
+    }
+   
+    #enscart_image_wrapper {
+      background: #A66554; /* Изменить фон кнопки */
+     
+    }
+    #enscart_image_wrapper img {
+      height: 90%; /* Подогнать размер изображения под кнопку */
+      width: auto; 
+      padding-top:8px;
+    }
+</style>
+<style>
+	#enscart_wrapper {
+		top: 10px;  
+		bottom: auto;
+		
+		right: 50px;
+		left: auto;		
+	}
+</style>
+<!-- /Google Analytics -->
+
+
+  <section class="menu popup-btn-cards cid-rPgFyM6gam" once="menu" id="menu2-y">
+
+    
+    
+
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="mbr-overlay" style="opacity: 0.5;"></div>
+
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+        <div class="left-menu">
+          <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item dropdown open">
+                  <a class="nav-link link text-black dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="true">
+                      Сделать заказ</a><div class="dropdown-menu"><a class="text-black dropdown-item display-4" href="composition.html" aria-expanded="false">Композиции</a><a class="text-black dropdown-item display-4" href="flowers.html" aria-expanded="false">Цеты</a><a class="text-black dropdown-item display-4" href="reason.html" aria-expanded="false">Повод</a><a class="text-black dropdown-item display-4" href="roses.html" aria-expanded="false">Розы</a></div>
+              </li><li class="nav-item"><a class="nav-link link text-black display-4" href="contact.html" aria-expanded="false">
+                      Контакты</a></li></ul>
+        </div>
+
+        <div class="brand-container">
+          <div class="navbar-brand">
+              <span class="navbar-logo">
+                  <a href="index.html">
+                      <img src="assets/images/flowershouse-122x118.png" alt="" title="" style="height: 5rem;">
+                  </a>
+              </span>
+              <span class="navbar-caption-wrap"><a class="navbar-caption text-warning display-5" href="index.html">Цветочный Дом</a></span>
+          </div>
+        </div>
+
+        <div class="right-menu">
+          <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item">
+                <a class="nav-link link text-black display-4" href="index.html">
+                    Доставка</a>
+            </li><li class="nav-item">
+                <a class="nav-link link text-black display-4" href="index.html">
+                    Блог</a>
+            </li></ul>
+        </div>
+      </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          </button>
+    </nav>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script async src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script async src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script async src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script async src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script async src="assets/theme/js/script.js"></script>
+  <script async src="assets/formoid/formoid.min.js"></script>
+  
+  
+
+</body>
+</html>
